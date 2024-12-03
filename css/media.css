@@ -1,0 +1,171 @@
+@media (max-width: 1024px) {
+
+  .container {
+    padding: 0 100px;
+  }
+
+  /* header  */
+
+  .header{
+    padding: 0;
+  }
+
+  .header__layout > *:nth-child(1) {
+    padding: 33px 0;
+}
+
+  .header__layout > *:nth-child(3){
+    padding: 28px 0;
+}
+
+  .logo{
+    margin-right: auto;
+  }
+
+  .logo__image {
+    width: 112px;
+    height: 14px;
+  }
+
+
+  .header__nav {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    padding: 22px 0;
+    order: 3;
+
+    position: relative;
+  }
+
+.header__nav::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 100vw;
+  outline:1px solid #E6EBEC;
+}
+
+.header__nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 100vw;
+  outline:1px solid #E6EBEC;
+}
+
+  /* podcast  */
+
+  .podcast {
+    padding: 90px 0;
+  }
+
+  .podcast__item::before {
+    height: 270px;
+    width: 260px;
+    background-image: url("../img/micr-1024.png");
+  }
+
+  .podcast__text {
+    max-width: 539px;
+  }
+
+  .podcast__parapgraph {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .podcast__item::before {
+    display: none;
+  }
+
+  .podcast__text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 114px;
+  }
+
+
+  /* header  */
+
+  .logo__image {
+    width: 113px;
+    height: 14px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* header  */
+
+  .header__nav {
+    padding: 17px 0;
+    overflow-x: scroll;
+  }
+
+  .nav__list {
+    justify-content: baseline;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+
+@media (max-width: 590px) {
+
+  .container {
+    padding: 0 32px;
+  }
+
+  /* header  */
+
+  .header__layout > *:nth-child(1) {
+    padding: 22px 0;
+}
+
+  .header__layout > *:nth-child(3){
+    padding: 15px 0;
+}
+
+
+  .logo__image {
+    width: 87px;
+    height: 10px;
+  }
+
+  /* podcast */
+
+  .podcast {
+    padding: 40px 0;
+  }
+
+  .podcast__title {
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+
+  .podcast__parapgraph {
+    font-size: 14px;
+  }
+
+  .podcast__button {
+    width: 200px;
+    padding: 17px 45px;
+    font-size: 16px;
+  }
+
+}
+

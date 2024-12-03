@@ -1,0 +1,36 @@
+.header {
+  padding: 34px 0;
+}
+
+.header__layout {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-right: 80px;
+  font-size: 0;
+}
+
+.header__nav {
+  max-width: 638px;
+  width: 100%;
+  margin-right: auto;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15em;
+}
+
