@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/podcast.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/podcast.css">
     <link rel="stylesheet" href="css/media.css" />
     <title>Радио W-Wave</title>
   </head>
@@ -14,7 +15,7 @@
     <header class="header">
       <div class="container header__layout">
         <a href="#" class="logo">
-          <img class="logo__image" src="img/logo-mobile.svg" alt="Логотип" />
+          <img class="logo__image" src="img/logo-dark.svg" alt="Логотип" />
         </a>
         <nav class="header__nav nav">
           <ul class="nav__list list-reset">
@@ -63,22 +64,22 @@
       </div>
     </header>
     <main class="main">
-      <section class="podcast">
-        <div class="container podcast__layout">
-          <div class="podcast__list">
-            <article class="podcast__item">
-              <div class="podcast__text">
-                <h1 class="podcast__title">
-                  <b class="podcast__title_bold">Радио</b> W-Wave
+      <section class="hero">
+        <div class="container hero__layout">
+          <div class="hero__list">
+            <article class="hero__item">
+              <div class="hero__text">
+                <h1 class="hero__title">
+                  <b class="hero__title_bold">Радио</b> W-Wave
                 </h1>
-                <p class="podcast__parapgraph">
+                <p class="hero__parapgraph">
                   Привет, на&nbsp;связи W-Wave! Раньше мы&nbsp;были изданием,
                   а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим
                   о&nbsp;музыке, политике, истории, науке и&nbsp;культуре.
                   Здесь, помимо прямого эфира&nbsp;&mdash; архив передач
                   и&nbsp;многое другое:)
                 </p>
-                <button class="podcast__button button btn-reset">
+                <button class="hero__button button btn-reset">
                   Слушать эфир
                 </button>
               </div>
@@ -86,6 +87,86 @@
           </div>
         </div>
       </section>
+      <section class="podcast">
+        <div class="container">
+          <h2 class="podcast__title">Подкасты</h2>
+          <ul class="podcast__list list-reset">
+            <li class="podcast__item">
+              <img src="img/1p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">14 июня</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">15:43</time>
+                <h3 class="podcast__text-title">Европа. XIX век</h3>
+                <span class="podcast__text-author">Дмитрий Гутенберг</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/2p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">11 июня</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">5:32</time>
+                <h3 class="podcast__text-title">О музыке</h3>
+                <span class="podcast__text-author">Дмитрий Гутенберг</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/3p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">8 июня</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">8:54</time>
+                <h3 class="podcast__text-title">Люди сегодня</h3>
+                <span class="podcast__text-author">Анна Васильева</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/4p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">5 июня</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">9:04</time>
+                <h3 class="podcast__text-title">Хэллоу, Африка!</h3>
+                <span class="podcast__text-author">Пётр Дмитриевский</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/5p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">2 июня</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">7:03</time>
+                <h3 class="podcast__text-title">Обо всём</h3>
+                <span class="podcast__text-author">Пётр Дмитриевский</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/6p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">28 мая</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">9:15</time>
+                <h3 class="podcast__text-title">Физика цвета</h3>
+                <span class="podcast__text-author">Татьяна Флеганова</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/7p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">22 мая</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">16:04</time>
+                <h3 class="podcast__text-title">Источник звука</h3>
+                <span class="podcast__text-author">Пётр Дмитриевский</span>
+              </div>
+            </li>
+            <li class="podcast__item">
+              <img src="img/8p.svg" alt="" class="podcast__image" />
+              <span class="podcast__date">18 мая</span>
+              <div class="podcast__text">
+                <time datetime="" class="podcast__text-time">6:55</time>
+                <h3 class="podcast__text-title">Правила этикета</h3>
+                <span class="podcast__text-author">Татьяна Флеганова</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
     </main>
   </body>
 </html>

@@ -7,6 +7,7 @@
   /* header  */
 
   .header{
+    position: relative;
     padding: 0;
   }
 
@@ -34,56 +35,51 @@
     margin-right: 0;
     padding: 22px 0;
     order: 3;
-
-    position: relative;
   }
 
-.header__nav::before {
+.header::after {
   content: "";
   position: absolute;
-  left: 0;
-  top: 1px;
+  top: 80px;
   width: 100vw;
-  outline:1px solid #E6EBEC;
+  border-bottom: 1px solid #E6EBEC;
 }
 
-.header__nav::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 1px;
-  width: 100vw;
-  outline:1px solid #E6EBEC;
-}
+  /* hero  */
 
-  /* podcast  */
-
-  .podcast {
+  .hero {
     padding: 90px 0;
+    border-top: 1px solid #E6EBEC;
   }
 
-  .podcast__item::before {
+  .hero__item::before {
     height: 270px;
     width: 260px;
     background-image: url("../img/micr-1024.png");
   }
 
-  .podcast__text {
+  .hero__text {
     max-width: 539px;
   }
 
-  .podcast__parapgraph {
+  .hero__parapgraph {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 991px) {
-  .podcast__item::before {
+  .hero__item::before {
     display: none;
   }
 
-  .podcast__text {
+  .hero__text {
     max-width: 100%;
+  }
+
+  /* podcast  */
+
+  .podcast__item {
+    width: 100%;
   }
 }
 
@@ -140,28 +136,32 @@
     padding: 15px 0;
 }
 
+.header::after {
+  top: 54px;
+}
+
 
   .logo__image {
     width: 87px;
     height: 10px;
   }
 
-  /* podcast */
+  /* hero */
 
-  .podcast {
+  .hero {
     padding: 40px 0;
   }
 
-  .podcast__title {
+  .hero__title {
     margin-bottom: 8px;
     font-size: 32px;
   }
 
-  .podcast__parapgraph {
+  .hero__parapgraph {
     font-size: 14px;
   }
 
-  .podcast__button {
+  .hero__button {
     width: 200px;
     padding: 17px 45px;
     font-size: 16px;
